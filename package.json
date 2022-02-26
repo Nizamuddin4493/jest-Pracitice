@@ -1,0 +1,24 @@
+{
+  "name": "jest-pracitice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "strMethods.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nizamuddin4493/jest-Pracitice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nizamuddin4493/jest-Pracitice/issues"
+  },
+  "homepage": "https://github.com/Nizamuddin4493/jest-Pracitice#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
