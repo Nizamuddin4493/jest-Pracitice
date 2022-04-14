@@ -32,6 +32,7 @@ Then, create a file named sum.test.js. This will contain our actual test:
 
 Add the following section to your package.json:
 
+
 > {
 > 
 >  "scripts": {
@@ -41,3 +42,12 @@ Add the following section to your package.json:
 >  }
 > 
 >}
+
+Finally, run yarn test or npm run test and Jest will print this message:
+> PASS  ./sum.test.js
+> 
+> ✓ adds 1 + 2 to equal 3 (5ms)
+
+You just successfully wrote your first test using Jest!
+
+This test used expect and toBe to test that two values were exactly identical. To learn about the other things that Jest can test, see [Using Matchers](https://jestjs.io/docs/using-matchers).
