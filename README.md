@@ -29,3 +29,15 @@ Then, create a file named sum.test.js. This will contain our actual test:
 >  expect(sum(1, 2)).toBe(3);
 >  
 > });
+
+Add the following section to your package.json:
+
+> {
+> 
+>  "scripts": {
+>  
+>    "test": "jest"
+>    
+>  }
+> 
+>}
