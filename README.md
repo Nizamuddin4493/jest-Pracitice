@@ -1,4 +1,5 @@
-# jest-Pracitice
+# jest-Practice
+
 ### Getting Started
 Install Jest using yarn:
 
@@ -6,3 +7,15 @@ Install Jest using yarn:
 
 Or npm
 > npm install --save-dev jest
+
+Note: Jest documentation uses yarn commands, but npm will also work. You can compare yarn and npm commands in the [yarn docs, here](https://classic.yarnpkg.com/en/docs/migrating-from-npm#toc-cli-commands-comparison).
+
+Let's get started by writing a test for a hypothetical function that adds two numbers. First, create a sum.js file:
+
+> function sum(a, b) {
+>
+>  return a + b;
+>  
+> }
+> 
+> module.exports = sum;
