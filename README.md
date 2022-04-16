@@ -64,3 +64,17 @@ If you'd like to learn more about running jest through the command line, take a 
 ### Generate a basic configuration file
 Based on your project, Jest will ask you a few questions and will create a basic configuration file with a short description for each option:
 > jest --init
+
+# Using Babel
+To use [Babel](https://babeljs.io/), install required dependencies via yarn:
+> yarn add --dev babel-jest @babel/core @babel/preset-env
+
+Configure Babel to target your current version of Node by creating a babel.config.js file in the root of your project:
+#### babel.config.js
+> module.exports = {
+> 
+>  presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
+>  
+> };
+
+The ideal configuration for Babel will depend on your project. See [Babel's docs](https://babeljs.io/docs/en/) for more details.
