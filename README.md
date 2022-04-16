@@ -51,3 +51,11 @@ Finally, run yarn test or npm run test and Jest will print this message:
 You just successfully wrote your first test using Jest!
 
 This test used expect and toBe to test that two values were exactly identical. To learn about the other things that Jest can test, see [Using Matchers](https://jestjs.io/docs/using-matchers).
+
+# Running from command line
+You can run Jest directly from the CLI (if it's globally available in your PATH, e.g. by yarn global add jest or npm install jest --global) with a variety of useful options.
+
+Here's how to run Jest on files matching my-test, using config.json as a configuration file and display a native OS notification after the run:
+> jest my-test --notify --config=config.json
+
+If you'd like to learn more about running jest through the command line, take a look at the [Jest CLI Options](https://jestjs.io/docs/cli) page.
