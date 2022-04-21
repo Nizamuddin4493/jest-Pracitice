@@ -78,4 +78,3 @@ Configure Babel to target your current version of Node by creating a babel.confi
 > };
 
 The ideal configuration for Babel will depend on your project. See [Babel's docs](https://babeljs.io/docs/en/) for more details.
-The ideal configuration for Babel will depend on your project. See [Babel's docs](https://babeljs.io/docs/en/) for more details.
